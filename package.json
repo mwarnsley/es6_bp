@@ -1,0 +1,28 @@
+{
+  "name": "hhg_proto",
+  "version": "1.0.0",
+  "description": "hhgregg prototype js6/react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hhgregg",
+    "react",
+    "flux",
+    "es6",
+    "prototype"
+  ],
+  "author": "George Roots",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^1.12.12"
+  },
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-runtime": "^6.3.19",
+    "webpack": "^1.12.12"
+  }
+}
