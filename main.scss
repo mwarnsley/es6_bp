@@ -1,0 +1,27 @@
+$blue: #0000FF;
+$green: #00FF00;
+$red: #FF0000;
+
+#card-container{
+  position: relative;
+  top: 100px;
+}
+
+.cards{
+  text-align: center;
+  border: 1px solid black;
+  padding: 100px 0px;
+}
+
+.card1{
+  @extend .cards;
+  background-color: $blue;
+}
+.card2{
+  @extend .cards;
+  background-color: $green;
+}
+.card3{
+  @extend .cards;
+  background-color: $red;
+}

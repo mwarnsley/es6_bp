@@ -3,6 +3,7 @@
 	<head>
 		<title>React es6 boilerplate</title>
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="../main.css" />
 	</head>
 	<body>
 
@@ -32,8 +33,29 @@
                 )
             }
         });
+        var Card2 = React.createClass({
+            render: function(){
+                return(
+                        <div className="card card2">
+                            <h2>SECOND CARD</h2>
+                        </div>
+                )
+            }
+        });
+        var Card3 = React.createClass({
+            render: function(){
+                return(
+                        <div className="card card3">
+                            <h2>THIRD CARD</h2>
+                        </div>
+                )
+            }
+        });
+
 
         React.render(<Card1 />, document.getElementsByClassName("col-md-4")[0]);
+        React.render(<Card2 />, document.getElementsByClassName("col-md-4")[1]);
+        React.render(<Card3 />, document.getElementsByClassName("col-md-4")[2]);
     </script>
 	</body>
 </html>

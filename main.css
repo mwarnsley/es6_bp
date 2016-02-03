@@ -1,0 +1,19 @@
+#card-container {
+  position: relative;
+  top: 100px; }
+
+.cards, .card1, .card2, .card3 {
+  text-align: center;
+  border: 1px solid black;
+  padding: 100px 0px; }
+
+.card1 {
+  background-color: #0000FF; }
+
+.card2 {
+  background-color: #00FF00; }
+
+.card3 {
+  background-color: #FF0000; }
+
+/*# sourceMappingURL=main.css.map */
