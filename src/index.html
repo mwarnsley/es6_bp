@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>React es6 boilerplate</title>
-</head>
-<body>
+	<head>
+		<title>React es6 boilerplate</title>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+	</head>
+	<body>
 
-<script type="text/javascript" src="main.js"></script>
-</body>
+    <div class="container">
+        <div class="row">
+            <div id="card-container">
+                <div class="col-md-4"></div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </div>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="components/Homepage.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+    <script type="text/jsx">
+        var Card1 = React.createClass({
+            render: function(){
+                return(
+                       <div className="card card1">
+                           <h2>FIRST CARD</h2>
+                       </div>
+                )
+            }
+        });
+
+        React.render(<Card1 />, document.getElementsByClassName("col-md-4")[0]);
+    </script>
+	</body>
 </html>
