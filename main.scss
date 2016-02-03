@@ -13,15 +13,15 @@ $red: #FF0000;
   padding: 100px 0px;
 }
 
-.card1{
+.card1, .card3-back{
   @extend .cards;
   background-color: $blue;
 }
-.card2{
+.card2, .card1-back{
   @extend .cards;
   background-color: $green;
 }
-.card3{
+.card3, .card2-back{
   @extend .cards;
   background-color: $red;
 }
